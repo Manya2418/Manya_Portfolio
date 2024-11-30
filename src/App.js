@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Home from "./components/Home";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Resume from "./components/Resume";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import gsap from "gsap";
+import Certifcation from "./components/Certifcation";
+import Achievement from "./components/Achievement";
+
+
+var main=document.querySelector("body");
+var cursor=document.querySelector("#cursor");
+
+
+main.addEventListener("mousemove",function(dets){
+    gsap.to(cursor,{
+        x:dets.x,
+        y:dets.y,
+        duation:1,
+        scale:2,
+        yoyo:true,
+        repeat:-1,
+        
+        ease:"back.out"
+    })
+})
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <Header />
+      <main>
+        <Home />
+        <About />
+        <Skills />
+        <Resume />
+        <Achievement/>
+        <Projects />
+        <Certifcation/>
+        
+        
+        <Contact/>
+      </main>
     </div>
   );
 }
