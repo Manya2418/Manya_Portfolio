@@ -537,7 +537,7 @@ video {
     
 }
 .my-info h3{
-    animation: fadeAndColorChange 5s;
+    animation: fadeAndColorChange 3s;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
 
@@ -976,12 +976,12 @@ video {
 
   @keyframes fadeAndColorChange {
     0% {
-      opacity: 0.2;
-      color: #4eb4f8;
+      opacity: 0.4;
+      color: var(--themeColor);
     }
     50% {
-      opacity: 0.5;
-      color: #4eb5fa;
+      opacity: 0.6;
+      color: #28a4f7;
     }
     100% {
       opacity: 1;
