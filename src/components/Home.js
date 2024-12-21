@@ -66,7 +66,7 @@ function Home() {
         </p>
         <br />
         <a
-          href="https://drive.google.com/file/d/15X18T2E2eEHfzG0OFKgR04zJTZUE0qZa/view?usp=sharing"
+          href="https://drive.google.com/file/d/1OoPMBCBBj2wtQgtAxMSeEbGttHrHjVN1/view?usp=sharing"
           className="know-btn"
         >
           Resume <i className="fas fa-arrow-right arrow"></i>
