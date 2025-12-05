@@ -79,7 +79,7 @@ const Certifications = () => {
         <div className="scholar-col">
         
           <img src="./Images/lap.jpeg" alt="" style={{border:"5px solid white"}}/>
-          <img src="./Images/cum.jpeg" alt="" style={{border:"5px solid white"}}/>
+          // <img src="./Images/cum.jpeg" alt="" style={{border:"5px solid white"}}/>
         </div> 
         <div className="scholar-col">
           <img src="./Images/letter.jpeg" alt="" />
