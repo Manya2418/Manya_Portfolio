@@ -5,7 +5,7 @@ function About() {
   return (
     <section id="about">
       <h1 className="sub-heading">About Me</h1>
-      <div className="divider"></div>
+      
       <p>Dynamic IT enthusiast skilled in MERN Stack, Java, and data structures.Seeking a software development role to apply
                 these skills to contribute effectively to innovative tech projects as a team member.
                 I am a hardworking and passionate individual with a strong focus on delivering efficient and innovative solutions. My adaptability and problem-solving mindset enable me to tackle challenges effectively. With a curious nature and resilience, I am always eager to learn and grow, staying updated with the latest trends and technologies.    
