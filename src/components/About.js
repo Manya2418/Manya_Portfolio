@@ -11,9 +11,7 @@ function About() {
                 I am a hardworking and passionate individual with a strong focus on delivering efficient and innovative solutions. My adaptability and problem-solving mindset enable me to tackle challenges effectively. With a curious nature and resilience, I am always eager to learn and grow, staying updated with the latest trends and technologies.    
              </p>
       <div className="about-col">
-        <div className="img-col">
-          <img src="./Images/img.jpg" alt="About Me" />
-        </div>
+        
         <div className="info-col">
           <h2>Java Enthusiast</h2>
           <p>I am passionate about Java programming, with a strong focus on Data Structures and Algorithms.I enjoy solving complex problems and designing efficient solutions that showcase my analytical and logical skills.</p>
